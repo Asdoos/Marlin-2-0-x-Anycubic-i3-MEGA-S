@@ -657,14 +657,14 @@
 // Above this temperature the heater will be switched off.
 // This can protect components from overheating, but NOT from shorts and failures.
 // (Use MINTEMP for thermistor short/failure protection.)
-#define HEATER_0_MAXTEMP 300
-#define HEATER_1_MAXTEMP 275
-#define HEATER_2_MAXTEMP 275
-#define HEATER_3_MAXTEMP 275
-#define HEATER_4_MAXTEMP 275
-#define HEATER_5_MAXTEMP 275
-#define HEATER_6_MAXTEMP 275
-#define HEATER_7_MAXTEMP 275
+#define HEATER_0_MAXTEMP 350
+#define HEATER_1_MAXTEMP 350
+#define HEATER_2_MAXTEMP 350
+#define HEATER_3_MAXTEMP 350
+#define HEATER_4_MAXTEMP 350
+#define HEATER_5_MAXTEMP 350
+#define HEATER_6_MAXTEMP 350
+#define HEATER_7_MAXTEMP 350
 #define BED_MAXTEMP      150
 #define CHAMBER_MAXTEMP  60
 
@@ -1726,7 +1726,7 @@
     #if ENABLED(KNUTWURST_BMG)
       #define INVERT_E0_DIR true // set to false for stock drivers or TMC2208 with reversed connectors
     #else
-      #define INVERT_E0_DIR false // set to false for stock drivers or TMC2208 with reversed connectors
+      #define INVERT_E0_DIR true // set to false for stock drivers or TMC2208 with reversed connectors
     #endif
 
     #define INVERT_E1_DIR true // set to false for stock drivers or TMC2208 with reversed connectors
