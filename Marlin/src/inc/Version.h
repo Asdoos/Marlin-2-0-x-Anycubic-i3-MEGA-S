@@ -75,7 +75,7 @@
  * Define a generic printer name to be output to the LCD after booting Marlin.
  */
 #ifndef MACHINE_NAME
-  #define MACHINE_NAME "Knutwurst's Anycubic Printer"   // PATCH: Knutwurst
+  #define MACHINE_NAME "ANRI's Anycubic Printer"   // PATCH: Knutwurst
 #endif
 
 /**
