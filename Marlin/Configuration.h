@@ -581,7 +581,7 @@
  *   999 : Dummy Table that ALWAYS reads 100°C or the temperature defined below.
  *
  */
-#if ENABLED(KNUTWURST_4MAXP2)
+#if ANY(KNUTWURST_4MAXP2, KNUTWURST_CHIRON)
   #define TEMP_SENSOR_0 11
 #else
   #define TEMP_SENSOR_0 1
