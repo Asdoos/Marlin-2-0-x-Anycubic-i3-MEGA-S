@@ -27,8 +27,6 @@
 
 #define BOARD_INFO_NAME "Anycubic RAMPS 1.4"
 
-#define IS_RAMPS_EFB
-
 //
 // Servos
 //
@@ -51,7 +49,7 @@
 //
 // Custom Limit Switches
 //
-//#define ANYCUBIC_4_MAX_PRO_ENDSTOPS
+// #define ANYCUBIC_4_MAX_PRO_ENDSTOPS
 #if ENABLED(ANYCUBIC_4_MAX_PRO_ENDSTOPS)
   #define X_MAX_PIN                           43
   #define Y_MIN_PIN                           19
@@ -65,8 +63,8 @@
 #define TG_FAN0_PIN                            7  // Anycubic Kossel: Usually the part cooling fan -> Plugged in FAN1
 #define TG_FAN1_PIN                            9  // Anycubic Kossel: Unused
 #define TG_FAN2_PIN                           44  // Anycubic Kossel: Hotend fan
-#define CONTROLLER_FAN_PIN  		              TG_FAN1_PIN
-#define FIL_RUNOUT_PIN                        19
+#define CONTROLLER_FAN_PIN                    TG_FAN1_PIN
+#define FIL_RUNOUT_PIN                        33
 #define BEEPER_PIN                            31
 #define SDSS                                  53
 #define LED_PIN                               13
